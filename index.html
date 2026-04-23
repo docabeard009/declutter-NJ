@@ -13,6 +13,74 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Declutter NJ — Homeowner Tips, Cleanout Guides & Local Resources</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Declutter NJ",
+  "url": "https://declutter-nj.com",
+  "description": "Homeowner guides for junk removal and cleanouts in Warren County NJ",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://declutter-nj.com/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Hackettstown Junk Removal",
+  "url": "https://www.hackettstownjunkremoval.com",
+  "telephone": "YOUR PHONE NUMBER",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hackettstown",
+    "addressRegion": "NJ",
+    "postalCode": "07840",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    "Hackettstown NJ", "Washington NJ", "Oxford NJ",
+    "Belvidere NJ", "Phillipsburg NJ", "Mount Olive NJ",
+    "Budd Lake NJ", "Flanders NJ", "Chester NJ"
+  ],
+  "sameAs": "https://www.hackettstownjunkremoval.com"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does junk removal cost in New Jersey?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Junk removal in NJ typically costs $125–$175 for a quarter truckload and $450–$650 for a full truckload. Prices vary based on volume, weight, and material type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What items can't go in a junk removal truck in NJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Items prohibited include old TVs, computers, oil-based paint, propane tanks, fluorescent bulbs, car batteries, and pesticides. These require special disposal under NJ DEP regulations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there junk removal near Hackettstown NJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Hackettstown Junk Removal serves Hackettstown and surrounding Warren County communities including Washington, Oxford, Belvidere, and more. Visit hackettstownjunkremoval.com for a free estimate."
+      }
+    }
+  ]
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -93,7 +161,8 @@
     height: 28px;
   }
 
-  .logo-text h1 {
+  .logo-text .brand {
+    display: block;
     font-family: 'DM Serif Display', Georgia, serif;
     font-size: 2.6rem;
     color: white;
@@ -146,7 +215,7 @@
     font-weight: 500;
   }
 
-  .hero-banner h2 {
+  .hero-banner h1 {
     font-family: 'DM Serif Display', Georgia, serif;
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: white;
@@ -572,6 +641,32 @@
     margin-bottom: 2rem;
   }
 
+  #towns {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--sage-pale);
+    border-top: 1px solid var(--border);
+  }
+
+  #towns h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.6rem;
+    color: var(--sage);
+    margin-bottom: 0.75rem;
+  }
+
+  #towns p {
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    max-width: 900px;
+  }
+
+  #towns a {
+    color: var(--sage);
+    font-weight: 500;
+  }
+
   footer h4 {
     font-family: 'DM Serif Display', serif;
     font-size: 1.1rem;
@@ -624,7 +719,7 @@
         </svg>
       </div>
       <div class="logo-text">
-        <h1>Declutter NJ</h1>
+        <span class="brand">Declutter NJ</span>
         <p>Homeowner guides for a cleaner, lighter home in New Jersey</p>
       </div>
     </div>
@@ -642,7 +737,7 @@
 <!-- HERO -->
 <div class="hero-banner">
   <p class="eyebrow">Spring Cleanout Season is Here</p>
-  <h2>Everything You Need to Finally Clear Out Your NJ Home</h2>
+  <h1>Declutter NJ — Junk Removal &amp; Cleanout Guides for Warren County</h1>
   <p>Practical advice, local resources, and honest reviews — from a homeowner's perspective, for NJ homeowners.</p>
   <div class="cta-group">
     <a href="#" class="btn-primary">Start with Our Basement Guide</a>
@@ -830,6 +925,16 @@
 
   </aside>
 </div>
+
+<section id="towns">
+  <h2>Junk Removal &amp; Cleanout Resources Near You</h2>
+  <p>We cover homeowners across Warren County and surrounding communities
+  including <a href="https://www.hackettstownjunkremoval.com">Hackettstown</a>,
+  Washington Borough, Oxford, Belvidere, Hope, Allamuchy, Mansfield Township,
+  Blairstown, Phillipsburg, Columbia, Port Murray, Broadway, Changewater,
+  Buttzville, Mount Olive, Budd Lake, Flanders, Chester, Netcong,
+  and Stanhope.</p>
+</section>
 
 <footer>
   <div class="footer-grid">
